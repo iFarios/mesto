@@ -1,0 +1,6 @@
+.elements {
+  margin-top: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
