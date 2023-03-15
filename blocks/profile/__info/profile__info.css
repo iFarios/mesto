@@ -1,10 +1,10 @@
 .profile__info {
   display: grid;
-  grid-template-columns: 294px 24px;
+  grid-template-columns: 168px 294px 42px;
   grid-template-areas: 
-  "profile__title profile__edit-button"
-  "profile__subtitle .";
-  column-gap: 18px;
+  "profile__avatar profile__title profile__edit-button"
+  "profile__avatar profile__subtitle .";
   row-gap: 16px;
-  
+  grid-area: profile__info;
+  justify-content: space-between;
 }
